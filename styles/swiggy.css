@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-style{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 10px -2px, rgba(0, 0, 0, 0.05) 0px 2px 3px -1px;
+}
+
+.food-image{
+    border-radius: 25px;
+}
+
+.content-group{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.res-con{
+    width: 100%;
+}
+.res-details{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card-container:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.position-abs{
+    position: absolute;
+    margin-top: 8.5rem;
+    margin-left: 3rem;
+}
+
+.inc-dec-btn{
+    width: 6rem;
+    border-radius: 10px;
+}
+
+.inc-btn{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px;
+}
+
+.dec-btn{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:8px;
+}
+
+.inc-dec-val{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.hidden{
+    display: none;
+}
